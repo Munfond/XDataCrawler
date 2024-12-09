@@ -14,9 +14,6 @@ public class GetSource {
     public static final int maxOfFolowers = 50000;
     public static final int MAX_BLOCKS = 50;
     public static final int collectionLimitation = 200;
-    public static void main(String[] args) {
-        System.out.println(pathOfOutput);
-    }
     private static String getSource(String parent, String path) {
         return Paths.get(parent, path).toAbsolutePath().toString();
     }

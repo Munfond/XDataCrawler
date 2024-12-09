@@ -3,13 +3,13 @@ package login_and_search;
 import org.openqa.selenium.WebDriver;
 
 public interface LoginEngine {
-	public void getWeb();
-	public void setUpInfor();
-	public void fillGmail();
-	public void fillUsername();
-	public void fillPassword();
-	public void close();
-	public void init(String url);
-	public WebDriver getWebDriver();
-	public void setUrl(String url);
+	public abstract void getWeb();
+	public abstract void setUpInfor();
+	public abstract void fillGmail();
+	public abstract void fillUsername();
+	public abstract void fillPassword();
+	public abstract void close();
+	public abstract void init(String url);
+	public abstract WebDriver getWebDriver();
+	public abstract void setUrl(String url);
 } 
